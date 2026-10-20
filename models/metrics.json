@@ -1,0 +1,478 @@
+{
+  "dataset": "flowers102",
+  "arch": "resnet18",
+  "pretrained": true,
+  "epochs": 8,
+  "device": "cpu",
+  "n_train": 1020,
+  "n_val": 1020,
+  "n_test": 6149,
+  "best_val_accuracy": 0.9058823529411765,
+  "test_accuracy": 0.8759147828915271,
+  "macro_f1": 0.8729880972332387,
+  "topk_accuracy": 0.9643844527565458,
+  "k": 5,
+  "per_class": {
+    "pink primrose": {
+      "f1": 0.7142857142857143,
+      "support": 20
+    },
+    "hard-leaved pocket orchid": {
+      "f1": 0.9285714285714286,
+      "support": 40
+    },
+    "canterbury bells": {
+      "f1": 0.39285714285714285,
+      "support": 20
+    },
+    "sweet pea": {
+      "f1": 0.5614035087719298,
+      "support": 36
+    },
+    "english marigold": {
+      "f1": 0.8172043010752689,
+      "support": 45
+    },
+    "tiger lily": {
+      "f1": 0.92,
+      "support": 25
+    },
+    "moon orchid": {
+      "f1": 0.9047619047619048,
+      "support": 20
+    },
+    "bird of paradise": {
+      "f1": 0.9701492537313433,
+      "support": 65
+    },
+    "monkshood": {
+      "f1": 0.7164179104477612,
+      "support": 26
+    },
+    "globe thistle": {
+      "f1": 0.9090909090909091,
+      "support": 25
+    },
+    "snapdragon": {
+      "f1": 0.7580645161290323,
+      "support": 67
+    },
+    "colt's foot": {
+      "f1": 0.9264705882352942,
+      "support": 67
+    },
+    "king protea": {
+      "f1": 0.9491525423728814,
+      "support": 29
+    },
+    "spear thistle": {
+      "f1": 0.9333333333333333,
+      "support": 28
+    },
+    "yellow iris": {
+      "f1": 0.8529411764705882,
+      "support": 29
+    },
+    "globe-flower": {
+      "f1": 0.7017543859649122,
+      "support": 21
+    },
+    "purple coneflower": {
+      "f1": 0.9922480620155039,
+      "support": 65
+    },
+    "peruvian lily": {
+      "f1": 0.859375,
+      "support": 62
+    },
+    "balloon flower": {
+      "f1": 0.819672131147541,
+      "support": 29
+    },
+    "giant white arum lily": {
+      "f1": 0.7954545454545454,
+      "support": 36
+    },
+    "fire lily": {
+      "f1": 0.9743589743589743,
+      "support": 20
+    },
+    "pincushion flower": {
+      "f1": 0.9066666666666666,
+      "support": 39
+    },
+    "fritillary": {
+      "f1": 0.9242424242424242,
+      "support": 71
+    },
+    "red ginger": {
+      "f1": 0.9302325581395349,
+      "support": 22
+    },
+    "grape hyacinth": {
+      "f1": 0.975609756097561,
+      "support": 21
+    },
+    "corn poppy": {
+      "f1": 0.631578947368421,
+      "support": 21
+    },
+    "prince of wales feathers": {
+      "f1": 1.0,
+      "support": 20
+    },
+    "stemless gentian": {
+      "f1": 0.9,
+      "support": 46
+    },
+    "artichoke": {
+      "f1": 0.9734513274336283,
+      "support": 58
+    },
+    "sweet william": {
+      "f1": 0.8275862068965517,
+      "support": 65
+    },
+    "carnation": {
+      "f1": 0.7741935483870968,
+      "support": 32
+    },
+    "garden phlox": {
+      "f1": 0.7796610169491526,
+      "support": 25
+    },
+    "love in the mist": {
+      "f1": 0.8979591836734694,
+      "support": 26
+    },
+    "mexican aster": {
+      "f1": 0.9743589743589743,
+      "support": 20
+    },
+    "alpine sea holly": {
+      "f1": 0.8979591836734694,
+      "support": 23
+    },
+    "ruby-lipped cattleya": {
+      "f1": 0.9272727272727272,
+      "support": 55
+    },
+    "cape flower": {
+      "f1": 0.9560439560439561,
+      "support": 88
+    },
+    "great masterwort": {
+      "f1": 0.7741935483870968,
+      "support": 36
+    },
+    "siam tulip": {
+      "f1": 0.8181818181818182,
+      "support": 21
+    },
+    "lenten rose": {
+      "f1": 0.7920792079207921,
+      "support": 47
+    },
+    "barbeton daisy": {
+      "f1": 0.9428571428571428,
+      "support": 107
+    },
+    "daffodil": {
+      "f1": 0.7865168539325843,
+      "support": 39
+    },
+    "sword lily": {
+      "f1": 0.7311827956989247,
+      "support": 110
+    },
+    "poinsettia": {
+      "f1": 0.9530201342281879,
+      "support": 73
+    },
+    "bolero deep blue": {
+      "f1": 0.7346938775510204,
+      "support": 20
+    },
+    "wallflower": {
+      "f1": 0.936046511627907,
+      "support": 176
+    },
+    "marigold": {
+      "f1": 0.9787234042553191,
+      "support": 47
+    },
+    "buttercup": {
+      "f1": 0.9142857142857143,
+      "support": 51
+    },
+    "oxeye daisy": {
+      "f1": 0.9830508474576272,
+      "support": 29
+    },
+    "common dandelion": {
+      "f1": 0.9571428571428572,
+      "support": 72
+    },
+    "petunia": {
+      "f1": 0.6556473829201102,
+      "support": 238
+    },
+    "wild pansy": {
+      "f1": 0.9774436090225563,
+      "support": 65
+    },
+    "primula": {
+      "f1": 0.7751937984496124,
+      "support": 73
+    },
+    "sunflower": {
+      "f1": 0.9876543209876543,
+      "support": 41
+    },
+    "pelargonium": {
+      "f1": 0.8952380952380953,
+      "support": 51
+    },
+    "bishop of llandaff": {
+      "f1": 0.9830508474576272,
+      "support": 89
+    },
+    "gaura": {
+      "f1": 0.946236559139785,
+      "support": 47
+    },
+    "geranium": {
+      "f1": 0.9789473684210527,
+      "support": 94
+    },
+    "orange dahlia": {
+      "f1": 0.9894736842105263,
+      "support": 47
+    },
+    "pink-yellow dahlia": {
+      "f1": 0.9943502824858758,
+      "support": 89
+    },
+    "cautleya spicata": {
+      "f1": 0.9836065573770492,
+      "support": 30
+    },
+    "japanese anemone": {
+      "f1": 0.8823529411764706,
+      "support": 35
+    },
+    "black-eyed susan": {
+      "f1": 1.0,
+      "support": 34
+    },
+    "silverbush": {
+      "f1": 0.9142857142857143,
+      "support": 32
+    },
+    "californian poppy": {
+      "f1": 0.9161290322580645,
+      "support": 82
+    },
+    "osteospermum": {
+      "f1": 0.9647058823529412,
+      "support": 41
+    },
+    "spring crocus": {
+      "f1": 0.8636363636363636,
+      "support": 22
+    },
+    "bearded iris": {
+      "f1": 0.8311688311688312,
+      "support": 34
+    },
+    "windflower": {
+      "f1": 0.927536231884058,
+      "support": 34
+    },
+    "tree poppy": {
+      "f1": 0.9882352941176471,
+      "support": 42
+    },
+    "gazania": {
+      "f1": 0.9914529914529915,
+      "support": 58
+    },
+    "azalea": {
+      "f1": 0.8028169014084507,
+      "support": 76
+    },
+    "water lily": {
+      "f1": 0.9431818181818182,
+      "support": 174
+    },
+    "rose": {
+      "f1": 0.7619047619047619,
+      "support": 151
+    },
+    "thorn apple": {
+      "f1": 0.8981481481481481,
+      "support": 100
+    },
+    "morning glory": {
+      "f1": 0.8452380952380952,
+      "support": 87
+    },
+    "passion flower": {
+      "f1": 0.9598214285714286,
+      "support": 231
+    },
+    "lotus": {
+      "f1": 0.8908296943231441,
+      "support": 117
+    },
+    "toad lily": {
+      "f1": 0.9523809523809523,
+      "support": 21
+    },
+    "anthurium": {
+      "f1": 0.9195402298850575,
+      "support": 85
+    },
+    "frangipani": {
+      "f1": 0.9662162162162162,
+      "support": 146
+    },
+    "clematis": {
+      "f1": 0.9028571428571428,
+      "support": 92
+    },
+    "hibiscus": {
+      "f1": 0.6519823788546255,
+      "support": 111
+    },
+    "columbine": {
+      "f1": 0.7692307692307693,
+      "support": 66
+    },
+    "desert-rose": {
+      "f1": 0.84,
+      "support": 43
+    },
+    "tree mallow": {
+      "f1": 0.8536585365853658,
+      "support": 38
+    },
+    "magnolia": {
+      "f1": 0.9069767441860465,
+      "support": 43
+    },
+    "cyclamen": {
+      "f1": 0.8387096774193549,
+      "support": 134
+    },
+    "watercress": {
+      "f1": 0.8493975903614458,
+      "support": 164
+    },
+    "canna lily": {
+      "f1": 0.7666666666666667,
+      "support": 62
+    },
+    "hippeastrum": {
+      "f1": 0.8852459016393442,
+      "support": 56
+    },
+    "bee balm": {
+      "f1": 0.9230769230769231,
+      "support": 46
+    },
+    "ball moss": {
+      "f1": 0.8301886792452831,
+      "support": 26
+    },
+    "foxglove": {
+      "f1": 0.9642857142857143,
+      "support": 142
+    },
+    "bougainvillea": {
+      "f1": 0.9014084507042254,
+      "support": 108
+    },
+    "camellia": {
+      "f1": 0.6766917293233082,
+      "support": 71
+    },
+    "mallow": {
+      "f1": 0.6842105263157895,
+      "support": 46
+    },
+    "mexican petunia": {
+      "f1": 0.9032258064516129,
+      "support": 62
+    },
+    "bromelia": {
+      "f1": 0.9534883720930233,
+      "support": 43
+    },
+    "blanket flower": {
+      "f1": 0.9666666666666667,
+      "support": 29
+    },
+    "trumpet creeper": {
+      "f1": 0.6140350877192983,
+      "support": 38
+    },
+    "blackberry lily": {
+      "f1": 1.0,
+      "support": 28
+    }
+  },
+  "top_confusions": [
+    {
+      "true": "petunia",
+      "predicted": "hibiscus",
+      "count": 35
+    },
+    {
+      "true": "rose",
+      "predicted": "cyclamen",
+      "count": 15
+    },
+    {
+      "true": "passion flower",
+      "predicted": "great masterwort",
+      "count": 13
+    },
+    {
+      "true": "camellia",
+      "predicted": "mallow",
+      "count": 10
+    },
+    {
+      "true": "lotus",
+      "predicted": "water lily",
+      "count": 9
+    },
+    {
+      "true": "primula",
+      "predicted": "watercress",
+      "count": 9
+    },
+    {
+      "true": "petunia",
+      "predicted": "corn poppy",
+      "count": 9
+    },
+    {
+      "true": "petunia",
+      "predicted": "pink primrose",
+      "count": 9
+    },
+    {
+      "true": "rose",
+      "predicted": "trumpet creeper",
+      "count": 8
+    },
+    {
+      "true": "rose",
+      "predicted": "camellia",
+      "count": 8
+    }
+  ],
+  "train_seconds": 642
+}
